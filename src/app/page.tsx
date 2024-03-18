@@ -1,8 +1,8 @@
-import Home from "@/pages/home";
+import Navbar from "@/components/Navbar/Navbar";
 
 
-export default function page() {
+export default function Home() {
   return (
-    <Home/>
+  <Navbar />
   );
 }
