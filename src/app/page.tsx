@@ -1,8 +1,15 @@
-import Navbar from "@/components/Navbar/Navbar";
+import Inicio from "@/components/Inicio/Inicio";
+import Nav from "@/components/Nav/Nav";
 
 
-export default function Home() {
+
+
+export default function HomeSection() {
   return (
-  <Navbar />
+    <>
+      <Nav />
+      <Inicio />
+      
+    </>
   );
 }
