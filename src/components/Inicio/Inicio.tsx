@@ -6,7 +6,7 @@ import { Button } from '../ui/button';
 
 export default function Inicio() {
     return (
-      <section className="flex justify-center items-center align-middle w-full h-screen">
+      <section id="home" className="flex justify-center items-center align-middle w-full h-screen">
         <div className="flex flex-col justify-center items-start text-left w-3/5">
           <p className="text-gray-800 font-extrabold text-xl lg:text-3xl mb-2">
             Hello World!
