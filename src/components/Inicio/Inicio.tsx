@@ -35,7 +35,13 @@ export default function Inicio() {
         </div>
 
         <div className="flex justify-center items-center">
-          <Image src="/avatar.png" width={350} height={350} alt="avatar" />
+          <Image
+            className="animate-bounce-slow"
+            src="/avatar.png"
+            width={350}
+            height={350}
+            alt="avatar"
+          />
         </div>
       </section>
     );
