@@ -37,7 +37,7 @@ export default function Experience() {
           </svg>
           <p className="font-inter text-xs lg:text-lg text-gray-600 leading-normal ml-2 w-96">
             Advanced studies and professional experience in Web Development
-            since the pandemic.
+            since 2020.
           </p>
         </div>
 
