@@ -10,7 +10,7 @@ export default function Nav() {
           <li className="cursor-pointer rounded-full bg-transparent hover:bg-gray-800/40 transition-colors">
             <a
               href="#home"
-              className="flex justify-center items-center w-14 h-14"
+              className="flex justify-center items-center w-14 h-14 scroll-smooth"
               aria-label="Go to section #home"
               data-state="closed"
             >
@@ -37,7 +37,7 @@ export default function Nav() {
           >
             <a
               href="#experience"
-              className="flex justify-center items-center w-14 h-14"
+              className="flex justify-center items-center w-14 h-14 scroll-smooth"
               aria-label="Go to section #experience"
               data-state="closed"
             >
@@ -64,7 +64,7 @@ export default function Nav() {
           >
             <a
               href="#projects"
-              className="flex justify-center items-center w-14 h-14"
+              className="flex justify-center items-center w-14 h-14 scroll-smooth"
               aria-label="Go to section #projects"
               data-state="closed"
             >
@@ -106,15 +106,15 @@ export default function Nav() {
                 ></line>
               </svg>
             </a>
-          </li>         
-        
+          </li>
+
           <li
             className="cursor-pointer rounded-full bg-transparent
         hover:bg-gray-800/40 transition-colors"
           >
             <a
               href="#techs"
-              className="flex justify-center items-center w-14 h-14"
+              className="flex justify-center items-center w-14 h-14 scroll-smooth"
               aria-label="Go to section #techs"
               data-state="closed"
             >
@@ -141,7 +141,7 @@ export default function Nav() {
           >
             <a
               href="#contact"
-              className="flex justify-center items-center w-14 h-14"
+              className="flex justify-center items-center w-14 h-14 scroll-smooth"
               aria-label="Go to section #contact"
               data-state="closed"
             >

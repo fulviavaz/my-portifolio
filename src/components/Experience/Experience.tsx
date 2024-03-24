@@ -3,8 +3,8 @@ import React from 'react'
 export default function Experience() {
   return (
     <section
-      id="#experience"
-      className="flex justify-center items-start align-top w-full pb-16"
+      id="experience"
+      className="flex justify-center items-start align-top w-full pb-16 "
     >
       <div className="flex flex-col justify-center items-start text-left w-2/5">
         <h2 className="font-bold text-xl lg:text-4xl text-gray-800 leading-tight">

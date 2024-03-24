@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="flex justify-center items-center w-full pb-16"
+      className="flex justify-center items-center w-full pb-16 scroll-smooth"
     >
       <div className="flex flex-col justify-center items-center text-left w-2/5">
         <h2 className="font-bold text-xl lg:text-4xl text-gray-800 leading-tight">

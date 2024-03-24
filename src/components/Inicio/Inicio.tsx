@@ -9,7 +9,7 @@ export default function Inicio() {
     return (
       <section
         id="home"
-        className="flex justify-center items-center align-middle w-full h-screen"
+        className="flex justify-center items-center align-middle w-full h-screen scroll-smooth"
       >
         <div className="flex flex-col justify-center items-start text-left w-3/5">
           <p className="text-gray-800 font-extrabold text-xl lg:text-3xl mb-2">
