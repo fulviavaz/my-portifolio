@@ -9,9 +9,9 @@ export default function Inicio() {
     return (
       <section
         id="home"
-        className="flex justify-center items-center align-middle w-full h-screen scroll-smooth"
+        className="flex flex-wrap justify-center items-center align-middle xl:w-full xl:h-screen sm:h-auto pt-14"
       >
-        <div className="flex flex-col justify-center items-start text-left w-3/5">
+        <div className="flex flex-col justify-center items-start text-left w-4/5 ">
           <p className="text-gray-800 font-extrabold text-xl lg:text-3xl mb-2">
             Hello World!
           </p>
@@ -82,7 +82,7 @@ export default function Inicio() {
           </div>
         </div>
 
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center pb-10 pt-10">
           <Image
             className="animate-bounce-slow"
             src="/avatar.png"

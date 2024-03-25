@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function Typing() {
     return (
-      <div className="text-gray-800 font-extrabold text-3xl md:text-3xl xl:text-4xl pr-1">
+      <div className="text-gray-800 font-extrabold  md:text-3xl xl:text-4xl sm:text-2xl pr-1">
         <TypeAnimation
           sequence={[
             "I'm Fúlvia Vaz",
