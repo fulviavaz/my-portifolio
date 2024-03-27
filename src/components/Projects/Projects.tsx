@@ -7,14 +7,14 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="flex justify-center items-center w-full pb-16 scroll-smooth"
+      className="flex flex-wrap justify-center items-center pt-20 pb-20 container mx-auto "
     >
-      <div className="flex flex-col justify-center items-center text-left w-2/5">
+      <div className="flex flex-wrap flex-col justify-center items-center text-left w-2/5">
         <h2 className="font-bold text-xl lg:text-4xl text-gray-800 leading-tight">
           Main Projects
         </h2>
         {/* projects */}
-        <div className="flex justify-center items-cente  bg-gray-300 rounded-3xl mt-6 w-auto h-80 p-11">
+        <div className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl mt-6 w-auto h-auto p-11 ">
           <div className="flex flex-col justify-start items-start mr-10 ">
             <h3 className="md:text-xl text-gray-800 font-bold w-48">
               Hospital Amaral Carvalho
@@ -34,7 +34,7 @@ export default function Projects() {
               </Button>
             </div>
           </div>
-          <div className="flex justify-center items-start w-96">
+          <div className="flex justify-center items-start w-96 mt-6">
             <Image
               className="rounded-2xl hover:scale-105 transition-all"
               src="/amaral.jpg"
@@ -45,8 +45,8 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="flex justify-center items-cente  bg-gray-300 rounded-3xl mt-6 w-auto h-80 p-11">
-          <div className="flex justify-center items-start w-96 mr-10 ">
+        <div className="flex  flex-wrap justify-center items-cente  bg-gray-300 rounded-3xl mt-6 w-auto h-auto p-11">
+          <div className="flex justify-center items-start w-96 mr-10 mb-6 ">
             <Image
               className="rounded-2xl hover:scale-105 transition-all"
               src="/pontoe.png"

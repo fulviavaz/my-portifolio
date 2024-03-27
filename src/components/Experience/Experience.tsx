@@ -4,13 +4,13 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="flex flex-wrap justify-center items-start align-top w-full pb-16 data-twe-container"
+      className="container mx-auto grid gap-6 lg:grid-cols-2 lg:py-16 lg:px-32 sm:grid-cols-1 py-10 px-10"
     >
-      <div className="flex flex-col justify-center items-start text-left w-2/5">
-        <h2 className="font-bold text-xl lg:text-4xl text-gray-800 leading-tight">
+      <div className="">
+        <h2 className="text-gray-800 font-extrabold text-2xl lg:text-3xl ">
           Experience
         </h2>
-        <p className="font-inter text-sm lg:text-lg text-gray-600 leading-normal mt-4">
+        <p className="font-inter text-base text-gray-600 mt-6">
           I have worked as a full-time front-end developer remotely since
           October 2021. In this role, I was actively involved in developing HTML
           emails, creating Landing Pages, and building responsive and accessible
@@ -21,7 +21,7 @@ export default function Experience() {
         </p>
       </div>
 
-      <div className="flex flex-col justify-center items-start text-left w-auto ml-8">
+      <div className="">
         <div className="flex items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -35,7 +35,7 @@ export default function Experience() {
               clip-rule="evenodd"
             />
           </svg>
-          <p className="font-inter text-xs lg:text-lg text-gray-600 leading-normal ml-2 w-96">
+          <p className="font-inter text-base text-gray-600 ml-2 lg:w-96 w-full">
             Advanced studies and professional experience in Web Development
             since 2020.
           </p>
@@ -54,7 +54,7 @@ export default function Experience() {
               clip-rule="evenodd"
             />
           </svg>
-          <p className="font-inter text-xs lg:text-lg text-gray-400 leading-normal ml-2 w-96">
+          <p className="font-inter text-base text-gray-600 ml-2 lg:w-96 w-full">
             Proficiency in building websites, HTML emails, SPA´s and components.
           </p>
         </div>
@@ -72,7 +72,7 @@ export default function Experience() {
               clip-rule="evenodd"
             />
           </svg>
-          <p className="font-inter text-xs lg:text-lg text-gray-600 leading-normal ml-2 w-96">
+          <p className="font-inter text-base text-gray-600 ml-2 lg:w-96 w-full">
             Knowledge of frameworks such as Next.js and Angular, as well as
             vanilla JavaScript.
           </p>
@@ -91,12 +91,12 @@ export default function Experience() {
               clip-rule="evenodd"
             />
           </svg>
-          <p className="font-inter text-xs lg:text-lg text-gray-400 leading-normal ml-2 w-96">
+          <p className="font-inter text-base text-gray-600 ml-2 lg:w-96 w-full">
             Strong focus on accessibility and responsive development.
           </p>
         </div>
 
-        <div className="flex items-center mt-4">
+        <div className="flex items-center mt-4 sm:mb-14">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -109,7 +109,7 @@ export default function Experience() {
               clip-rule="evenodd"
             />
           </svg>
-          <p className="font-inter text-xs lg:text-lg text-gray-600 leading-normal ml-2 w-96">
+          <p className="font-inter text-base text-gray-600 ml-2 lg:w-96 w-full">
             Currently completing Web Development studies at the University.
           </p>
         </div>
