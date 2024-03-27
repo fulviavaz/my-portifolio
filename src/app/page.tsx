@@ -15,8 +15,8 @@ export default function Home() {
       <Nav />
       <Inicio />
       <Experience />
-      {/* <Projects />
-      <Techs />
+      <Projects />
+      {/* <Techs />
       <Footer/> */}
     </>
   );

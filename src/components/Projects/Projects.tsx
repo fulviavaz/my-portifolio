@@ -7,19 +7,20 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="flex flex-wrap justify-center items-center pt-20 pb-20 container mx-auto "
+      className="container mx-auto flex flex-wrap items-center justify-center lg:py-10 lg:px-32 py-10 px-10 "
     >
-      <div className="flex flex-wrap flex-col justify-center items-center text-left w-2/5">
-        <h2 className="font-bold text-xl lg:text-4xl text-gray-800 leading-tight">
+      <div className="flex flex-col justify-center items-center gap-11">
+        <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 leading-tight">
           Main Projects
         </h2>
+
         {/* projects */}
-        <div className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl mt-6 w-auto h-auto p-11 ">
-          <div className="flex flex-col justify-start items-start mr-10 ">
-            <h3 className="md:text-xl text-gray-800 font-bold w-48">
+        <div className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8">
+          <div className="flex flex-col justify-start items-start lg:mr-10 ">
+            <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
               Hospital Amaral Carvalho
             </h3>
-            <p className="font-inter text-sm md:text-lg mt-2 text-gray-600 w-72">
+            <p className="font-inter text-sm md:text-lg mt-2 text-gray-600 lg:w-72 w-auto">
               Website developed for Amaral Carvalho Hospital. Using HTML, CSS,
               Javascript and Webflow with Finsweet library as CMS.
             </p>
@@ -34,7 +35,7 @@ export default function Projects() {
               </Button>
             </div>
           </div>
-          <div className="flex justify-center items-start w-96 mt-6">
+          <div className="flex justify-center items-start lg:w-96 mt-6">
             <Image
               className="rounded-2xl hover:scale-105 transition-all"
               src="/amaral.jpg"
@@ -45,19 +46,12 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="flex  flex-wrap justify-center items-cente  bg-gray-300 rounded-3xl mt-6 w-auto h-auto p-11">
-          <div className="flex justify-center items-start w-96 mr-10 mb-6 ">
-            <Image
-              className="rounded-2xl hover:scale-105 transition-all"
-              src="/pontoe.png"
-              width={430}
-              height={350}
-              alt="project2"
-            />
-          </div>
-          <div className="flex flex-col justify-start items-start ">
-            <h3 className="md:text-xl text-gray-800 font-bold w-48">PontoE</h3>
-            <p className="font-inter text-sm md:text-lg mt-2 text-gray-600 w-72">
+        <div className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8">
+          <div className="flex flex-col justify-start items-start lg:mr-10 ">
+            <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
+              PontoE
+            </h3>
+            <p className="font-inter text-sm md:text-lg mt-2 text-gray-600 lg:w-72 w-auto">
               Website developed for PontoE StartUp. Using HTML, CSS, Javascript
               and Webflow with Finsweet library as CMS.
             </p>
@@ -72,16 +66,25 @@ export default function Projects() {
               </Button>
             </div>
           </div>
+          <div className="flex justify-center items-start lg:w-96 mt-6">
+            <Image
+              className="rounded-2xl hover:scale-105 transition-all"
+              src="/pontoe.png"
+              width={430}
+              height={350}
+              alt="project1"
+            />
+          </div>
         </div>
 
-        <div className="flex justify-center items-cente  bg-gray-300 rounded-3xl mt-6 w-auto h-80 p-11">
-          <div className="flex flex-col justify-start items-start mr-10 ">
-            <h3 className="md:text-xl text-gray-800 font-bold w-48">
+        <div className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8">
+          <div className="flex flex-col justify-start items-start lg:mr-10 ">
+            <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
               Health4All
             </h3>
-            <p className="font-inter text-sm md:text-lg mt-2 text-gray-600 w-72">
-              Website developed for Health4All. Using HTML, CSS, Javascript and
-              Webflow with Finsweet library as CMS.
+            <p className="font-inter text-sm md:text-lg mt-2 text-gray-600 lg:w-72 w-auto">
+              Landing Page developed for Health4All. Using HTML, CSS, Javascript
+              and Webflow with Finsweet library as CMS.
             </p>
             <div>
               <Button
@@ -94,38 +97,29 @@ export default function Projects() {
               </Button>
             </div>
           </div>
-          <div className="flex justify-center items-start w-96">
+          <div className="flex justify-center items-start lg:w-96 mt-6">
             <Image
               className="rounded-2xl hover:scale-105 transition-all"
               src="/helth.png"
               width={430}
               height={350}
-              alt="project3"
+              alt="project1"
             />
           </div>
         </div>
 
-        <div className="flex justify-center items-cente  bg-gray-300 rounded-3xl mt-6 w-auto h-80 p-11">
-          <div className="flex justify-center items-start w-96 mr-10 ">
-            <Image
-              className="rounded-2xl hover:scale-105 transition-all"
-              src="/kingburger.jpg"
-              width={430}
-              height={350}
-              alt="project2"
-            />
-          </div>
-          <div className="flex flex-col justify-start items-start ">
-            <h3 className="md:text-xl text-gray-800 font-bold w-48">
+        <div className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8">
+          <div className="flex flex-col justify-start items-start lg:mr-10 ">
+            <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
               King Burger
             </h3>
-            <p className="font-inter text-sm md:text-lg mt-2 text-gray-600 w-72">
+            <p className="font-inter text-sm md:text-lg mt-2 text-gray-600 lg:w-72 w-auto">
               Website developed for a fictional restaurant. Using React.JS,
               TypeScript, CSS modules, SCSS, React Hooks and Rest APIs.
             </p>
-            <div className="flex justify-center">
+            <div>
               <Button
-                className="bg-slate-950 text-white rounded-xl text-lg hover:text-slate-950 hover:bg-white p-6 mt-6 mr-6"
+                className="bg-slate-950 text-white rounded-xl text-lg hover:text-slate-950 hover:bg-white p-6 mt-6"
                 asChild
               >
                 <Link
@@ -135,34 +129,21 @@ export default function Projects() {
                   View Project
                 </Link>
               </Button>
-
-              <Button
-                className="bg-slate-950 text-white rounded-xl text-lg hover:text-slate-950 hover:bg-white p-6 mt-6"
-                asChild
-              >
-                <Link
-                  href="https://github.com/fulviavaz/king-burger-react"
-                  target="_blank"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    className="w-6 h-6"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5"
-                    />
-                  </svg>
-                </Link>
-              </Button>
             </div>
           </div>
+          <div className="flex justify-center items-start lg:w-96 mt-6">
+            <Image
+              className="rounded-2xl hover:scale-105 transition-all"
+              src="/kingburger.jpg"
+              width={430}
+              height={350}
+              alt="project1"
+            />
+          </div>
         </div>
+
+  
+
         <Button
           className="bg-slate-950 text-white rounded-xl text-lg hover:text-slate-950 hover:bg-white p-6 mt-6"
           asChild
