@@ -140,9 +140,7 @@ export default function Projects() {
               alt="project1"
             />
           </div>
-        </div>
-
-  
+        </div>  
 
         <Button
           className="bg-slate-950 text-white rounded-xl text-lg hover:text-slate-950 hover:bg-white p-6 mt-6"
@@ -153,6 +151,6 @@ export default function Projects() {
           </Link>
         </Button>
       </div>
-    </section>
+      </section>
   );
 }
