@@ -4,7 +4,7 @@ export default function Techs() {
   return (
     <section
       id="techs"
-      className="flex flex-wrap justify-center items-center px-10 py-10 container mx-auto lg:px-32"
+      className="flex flex-wrap justify-center items-center px-10 py-10 container mx-auto lg:px-32 lg:py-24"
     >
       <div className="flex flex-col justify-center items-center text-left lg:w-4/5">
         <h2 className="font-bold text-xl lg:text-4xl text-gray-800 leading-tight">

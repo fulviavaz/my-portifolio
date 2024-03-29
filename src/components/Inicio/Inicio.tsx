@@ -9,10 +9,10 @@ export default function Inicio() {
     return (
       <section
         id="home"
-        className="container mx-auto flex flex-wrap-reverse items-center justify-between lg:py-16 lg:px-32 sm:py-10 sm:px-10  "
+        className="container mx-auto flex flex-wrap-reverse items-center justify-between lg:py-16 lg:px-32 py-10 px-10  "
       >
         <div className="flex-col lg:w-1/2">
-          <p className="text-gray-800 font-extrabold text-2xl lg:text-3xl mb-6 sm:mt-6">
+          <p className="text-gray-800 font-extrabold text-2xl lg:text-3xl mb-6 ">
             Hello World!
           </p>
           <Typing />
@@ -73,7 +73,7 @@ export default function Inicio() {
               asChild
             >
               <Link
-                href="https://drive.google.com/file/d/1q0BRz9P0yAAzos4j-NFTJujDyif4A0Rw/view?usp=drive_link"
+                href="https://drive.google.com/file/d/14Yq0iBYCHUtPrafBw801jXs7PthKIbek/view?usp=sharing"
                 target="_blank"
               >
                 Download CV
