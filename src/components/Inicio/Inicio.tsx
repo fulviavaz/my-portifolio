@@ -4,6 +4,7 @@ import Typing from '../Typing/Typing';
 import Image from 'next/image';
 import { Button } from '../ui/button';
 import Link from 'next/link';
+import { motion } from "framer-motion";
 
 export default function Inicio() {
     return (
@@ -11,7 +12,10 @@ export default function Inicio() {
         id="home"
         className="container mx-auto flex flex-wrap-reverse items-center justify-between lg:py-16 lg:px-32 py-10 px-10  "
       >
-        <div className="flex-col lg:w-1/2">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          className="flex-col lg:w-1/2">
           <p className="text-gray-800 font-extrabold text-2xl lg:text-3xl mb-6 ">
             Hello World!
           </p>
@@ -80,7 +84,7 @@ export default function Inicio() {
               </Link>
             </Button>
           </div>
-        </div>
+        </motion.div>
 
         <Image
           className="animate-bounce-slow"

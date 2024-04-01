@@ -1,4 +1,6 @@
-import React from 'react'
+"use client"
+import React from 'react';
+import { motion } from "framer-motion";
 
 export default function Experience() {
   return (
@@ -6,7 +8,9 @@ export default function Experience() {
       id="experience"
       className="container mx-auto grid gap-6 lg:grid-cols-2 lg:py-16 lg:px-32 sm:grid-cols-1 py-10 px-10"
     >
-      <div className="">
+      <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}>
         <h2 className="text-gray-800 font-extrabold text-2xl lg:text-3xl ">
           Experience
         </h2>
@@ -19,9 +23,11 @@ export default function Experience() {
           spent three years as a Web Developer at Summa Papelaria. During this
           period, my focus was on developing and maintaining an online store.
         </p>
-      </div>
+      </motion.div>
 
-      <div className="">
+      <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}>
         <div className="flex items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -113,7 +119,7 @@ export default function Experience() {
             Currently completing Web Development studies at the University.
           </p>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }

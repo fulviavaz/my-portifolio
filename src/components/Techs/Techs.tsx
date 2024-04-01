@@ -1,4 +1,6 @@
-import React from 'react'
+"use client"
+import React from 'react';
+import { motion } from "framer-motion";
 
 export default function Techs() {
   return (
@@ -6,7 +8,9 @@ export default function Techs() {
       id="techs"
       className="flex flex-wrap justify-center items-center px-10 py-10 container mx-auto lg:px-32 lg:py-24"
     >
-      <div className="flex flex-col justify-center items-center text-left lg:w-4/5">
+      <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}className="flex flex-col justify-center items-center text-left lg:w-4/5">
         <h2 className="font-bold text-xl lg:text-4xl text-gray-800 leading-tight">
           Technologies
         </h2>
@@ -168,7 +172,7 @@ export default function Techs() {
             <path d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.598.182-.18.387-.316.605-.406V8.835c-.217-.091-.424-.222-.6-.401-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187" />
           </svg>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }

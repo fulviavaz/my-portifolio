@@ -1,7 +1,9 @@
+"use client"
 import Image from 'next/image';
 import React from 'react'
 import { Button } from '../ui/button';
 import Link from 'next/link';
+import { motion } from "framer-motion";
 
 export default function Projects() {
   return (
@@ -15,7 +17,12 @@ export default function Projects() {
         </h2>
 
         {/* projects */}
-        <div className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8">
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8"
+        >
           <div className="flex flex-col justify-start items-start lg:mr-10 ">
             <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
               Hospital Amaral Carvalho
@@ -44,9 +51,11 @@ export default function Projects() {
               alt="project1"
             />
           </div>
-        </div>
+        </motion.div>
 
-        <div className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8">
+        < motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }} className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8">
           <div className="flex flex-col justify-start items-start lg:mr-10 ">
             <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
               PontoE
@@ -75,9 +84,11 @@ export default function Projects() {
               alt="project1"
             />
           </div>
-        </div>
+        </motion.div>
 
-        <div className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }} className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8">
           <div className="flex flex-col justify-start items-start lg:mr-10 ">
             <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
               Health4All
@@ -106,9 +117,11 @@ export default function Projects() {
               alt="project1"
             />
           </div>
-        </div>
+        </motion.div>
 
-        <div className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }} className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8">
           <div className="flex flex-col justify-start items-start lg:mr-10 ">
             <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
               King Burger
@@ -140,7 +153,7 @@ export default function Projects() {
               alt="project1"
             />
           </div>
-        </div>  
+        </motion.div>
 
         <Button
           className="bg-slate-950 text-white rounded-xl text-lg hover:text-slate-950 hover:bg-white p-6 mt-6"
@@ -151,6 +164,6 @@ export default function Projects() {
           </Link>
         </Button>
       </div>
-      </section>
+    </section>
   );
 }
