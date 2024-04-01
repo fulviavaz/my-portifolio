@@ -9,11 +9,18 @@ export default function Experience() {
       className="container mx-auto grid gap-6 lg:grid-cols-2 lg:py-16 lg:px-32 sm:grid-cols-1 py-10 px-10"
     >
       <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}>
-        <h2 className="text-gray-800 font-extrabold text-2xl lg:text-3xl ">
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
+      >
+        <motion.h2
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+          className="text-gray-800 font-extrabold text-2xl lg:text-3xl "
+        >
           Experience
-        </h2>
+        </motion.h2>
         <p className="font-inter text-base text-gray-600 mt-6">
           I have worked as a full-time front-end developer remotely since
           October 2021. In this role, I was actively involved in developing HTML
@@ -26,8 +33,10 @@ export default function Experience() {
       </motion.div>
 
       <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}>
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
+      >
         <div className="flex items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"

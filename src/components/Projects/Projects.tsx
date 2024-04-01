@@ -12,15 +12,21 @@ export default function Projects() {
       className="container mx-auto flex flex-wrap items-center justify-center lg:py-10 lg:px-32 py-10 px-10 "
     >
       <div className="flex flex-col justify-center items-center gap-11">
-        <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 leading-tight">
+        <motion.h2
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+          className="font-bold text-3xl lg:text-4xl text-gray-800 leading-tight"
+        >
           Main Projects
-        </h2>
+        </motion.h2>
 
         {/* projects */}
 
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
           className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8"
         >
           <div className="flex flex-col justify-start items-start lg:mr-10 ">
@@ -53,9 +59,12 @@ export default function Projects() {
           </div>
         </motion.div>
 
-        < motion.div
+        <motion.div
           initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }} className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8">
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8"
+        >
           <div className="flex flex-col justify-start items-start lg:mr-10 ">
             <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
               PontoE
@@ -88,7 +97,10 @@ export default function Projects() {
 
         <motion.div
           initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }} className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8">
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8"
+        >
           <div className="flex flex-col justify-start items-start lg:mr-10 ">
             <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
               Health4All
@@ -121,7 +133,10 @@ export default function Projects() {
 
         <motion.div
           initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }} className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8">
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8"
+        >
           <div className="flex flex-col justify-start items-start lg:mr-10 ">
             <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
               King Burger

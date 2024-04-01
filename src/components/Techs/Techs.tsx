@@ -9,11 +9,19 @@ export default function Techs() {
       className="flex flex-wrap justify-center items-center px-10 py-10 container mx-auto lg:px-32 lg:py-24"
     >
       <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}className="flex flex-col justify-center items-center text-left lg:w-4/5">
-        <h2 className="font-bold text-xl lg:text-4xl text-gray-800 leading-tight">
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
+        className="flex flex-col justify-center items-center text-left lg:w-4/5"
+      >
+        <motion.h2
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 }}
+          className="font-bold text-xl lg:text-4xl text-gray-800 leading-tight mb-6"
+        >
           Technologies
-        </h2>
+        </motion.h2>
 
         <div className="flex flex-wrap justify-center items-center gap-4 bg-gray-300 rounded-3xl mt-6 w-auto h-auto lg:p-11 p-6">
           <svg
