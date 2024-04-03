@@ -4,7 +4,7 @@ export default function Nav() {
     return (
       <nav className="flex justify-center items-center">
         <ul
-          className="fixed bottom-8 hidden lg:flex justify-center items-center gap-x-4 px-10 h-20
+          className="fixed bottom-12 hidden lg:flex justify-center items-center gap-x-4 px-10 h-20
         bg-gray-800 rounded-full bg-opacity-40 backdrop-blur-sm drop-shadow-lg z-20"
         >
           <li className="cursor-pointer rounded-full bg-transparent hover:bg-gray-800/40 transition-colors">
