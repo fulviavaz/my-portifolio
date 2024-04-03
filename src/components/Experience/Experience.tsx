@@ -19,7 +19,7 @@ export default function Experience() {
           transition={{ duration: 0.5 }}
           className="text-gray-800 font-extrabold text-2xl lg:text-3xl "
         >
-          Experience
+          About Me
         </motion.h2>
         <p className="font-inter text-base text-gray-600 mt-6">
           I have worked as a full-time front-end developer remotely since
