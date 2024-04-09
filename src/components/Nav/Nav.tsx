@@ -22,6 +22,7 @@ export default function Nav() {
                 stroke="currentColor"
                 className="w-6 h-6 text-white"
               >
+                <title>Home</title>
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -49,6 +50,7 @@ export default function Nav() {
                 stroke="currentColor"
                 className="w-6 h-6 text-white"
               >
+                <title>About</title>
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -76,6 +78,7 @@ export default function Nav() {
                 viewBox="0 0 256 256"
                 className="text-white text-2xl"
               >
+                <title>Projects</title>
                 <rect width="256" height="256" fill="none"></rect>
                 <polyline
                   points="64 88 16 128 64 168"
@@ -126,6 +129,7 @@ export default function Nav() {
                 stroke="currentColor"
                 className="w-6 h-6 text-white"
               >
+                <title>Techs</title>
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
