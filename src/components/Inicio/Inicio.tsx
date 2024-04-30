@@ -16,12 +16,14 @@ export default function Inicio() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="flex-col lg:w-1/2">
+          className="flex-col lg:w-1/2"
+        >
           <motion.p
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-gray-800 font-extrabold text-2xl lg:text-3xl mb-6 ">
+            className="text-gray-800 font-extrabold text-2xl lg:text-3xl mb-6 "
+          >
             Hello World!
           </motion.p>
           <Typing />
@@ -82,7 +84,7 @@ export default function Inicio() {
               asChild
             >
               <Link
-                href="https://drive.google.com/file/d/14Yq0iBYCHUtPrafBw801jXs7PthKIbek/view?usp=sharing"
+                href="https://drive.google.com/file/d/1mpXuIgzkkp7u2dH0U97jcetTvdR3xC6Q/view?usp=sharing"
                 target="_blank"
               >
                 Download CV
@@ -91,18 +93,19 @@ export default function Inicio() {
           </div>
         </motion.div>
 
-      <motion.div
+        <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}>
-        <Image
-          className="animate-bounce-slow"
-          src="/avatar.png"
-          width={350}
-          height={350}
-          alt="avatar"
+          transition={{ duration: 0.5 }}
+        >
+          <Image
+            className="animate-bounce-slow"
+            src="/avatar.png"
+            width={350}
+            height={350}
+            alt="avatar"
           />
-      </motion.div>
+        </motion.div>
       </section>
     );
 }
