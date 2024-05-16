@@ -29,9 +29,9 @@ export default function Inicio() {
           <Typing />
           <p className="font-inter text-lg text-gray-600 mt-6">
             Welcome to my portfolio! Here you will discover my knowledge in
-            Front-end development, as well as incredible projects and relevant
-            publications. Feel free to explore and let’s create solutions
-            together that will surprise you!
+            Front-end and UI development, as well as incredible projects and
+            relevant publications. Feel free to explore and let’s create
+            solutions together that will surprise you!
           </p>
 
           <div className=" flex mt-6">
@@ -84,7 +84,7 @@ export default function Inicio() {
               asChild
             >
               <Link
-                href="https://drive.google.com/file/d/1mpXuIgzkkp7u2dH0U97jcetTvdR3xC6Q/view?usp=sharing"
+                href="https://drive.google.com/file/d/1F7ziFfOeONQ5SsXnYHqnX-2OEvgGpM0K/view?usp=sharing"
                 target="_blank"
               >
                 Download CV

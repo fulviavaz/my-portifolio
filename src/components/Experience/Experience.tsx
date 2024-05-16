@@ -22,7 +22,7 @@ export default function Experience() {
           About Me
         </motion.h2>
         <p className="font-inter text-base text-gray-600 mt-6">
-          I have worked as a full-time front-end developer remotely since
+          I have worked as a full-time front-end and UI developer remotely since
           October 2021. In this role, I was actively involved in developing HTML
           emails, creating Landing Pages, and building responsive and accessible
           websites. I also contributed to the maintenance and development of
@@ -70,7 +70,7 @@ export default function Experience() {
             />
           </svg>
           <p className="font-inter text-base text-gray-600 ml-2 lg:w-96 w-full">
-            Proficiency in building websites, HTML emails, SPA´s and components.
+            Proficiency in building websites, User Interfaces, SPA´s and components.
           </p>
         </div>
 
