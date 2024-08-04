@@ -20,7 +20,7 @@ export default function Techs() {
           transition={{ duration: 0.5 }}
           className="font-bold text-xl lg:text-4xl text-gray-800 leading-tight mb-6"
         >
-          Technologies
+          Techs & Tools
         </motion.h2>
 
         <div className="flex flex-wrap justify-center items-center gap-4 bg-gray-300 rounded-3xl mt-6 w-auto h-auto lg:p-11 p-6">
