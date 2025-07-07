@@ -147,18 +147,17 @@ export default function Projects() {
         >
           <div className="flex flex-col justify-start items-start lg:mr-10 ">
             <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
-              Health4All
+              ONC Granite
             </h3>
             <p className="font-inter text-sm md:text-lg mt-2 text-gray-600 lg:w-72 w-auto">
-              Landing Page developed for Health4All. Using HTML, CSS, Javascript
-              and Webflow with Finsweet library as CMS.
+            Website developed in Wordpress with Elementor, without a ready-made theme
             </p>
             <div>
               <Button
                 className="bg-slate-950 text-white rounded-xl text-lg hover:text-slate-950 hover:bg-white p-6 mt-6"
                 asChild
               >
-                <Link href="https://www.health4all.com.pt/" target="_blank">
+                <Link href="https://oncgranite.com/" target="_blank">
                   View Project
                 </Link>
               </Button>
@@ -167,7 +166,7 @@ export default function Projects() {
           <div className="flex justify-center items-start lg:w-96 mt-6">
             <Image
               className="rounded-2xl hover:scale-105 transition-all"
-              src="/helth.png"
+              src="/onc.jpg"
               width={430}
               height={350}
               alt="project1"
@@ -258,17 +257,17 @@ export default function Projects() {
         >
           <div className="flex flex-col justify-start items-start lg:mr-10 ">
             <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
-              Ronald Mcdonald Institute
+              Braza Homes
             </h3>
             <p className="font-inter text-sm md:text-lg mt-2 text-gray-600 lg:w-72 w-auto">
-              Website developed for Ronald Mcdonald Institute. Using Wordpress
+            Website developed in Wordpress with Elementor, using the Houzez theme + MLS plugin for a real estate agency
             </p>
             <div>
               <Button
                 className="bg-slate-950 text-white rounded-xl text-lg hover:text-slate-950 hover:bg-white p-6 mt-6"
                 asChild
               >
-                <Link href="https://institutoronald.org.br/" target="_blank">
+                <Link href="https://brazahomes.com/" target="_blank">
                   View Project
                 </Link>
               </Button>
@@ -277,7 +276,7 @@ export default function Projects() {
           <div className="flex justify-center items-start lg:w-96 mt-6">
             <Image
               className="rounded-2xl hover:scale-105 transition-all"
-              src="/irm.jpg"
+              src="/braza.jpg"
               width={430}
               height={350}
               alt="project1"
