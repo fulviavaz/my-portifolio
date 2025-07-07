@@ -31,6 +31,76 @@ export default function Projects() {
         >
           <div className="flex flex-col justify-start items-start lg:mr-10 ">
             <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
+              Braza Homes
+            </h3>
+            <p className="font-inter text-sm md:text-lg mt-2 text-gray-600 lg:w-72 w-auto">
+            Website developed in Wordpress with Elementor, using the Houzez theme + MLS plugin for a real estate agency
+            </p>
+            <div>
+              <Button
+                className="bg-slate-950 text-white rounded-xl text-lg hover:text-slate-950 hover:bg-white p-6 mt-6"
+                asChild
+              >
+                <Link href="https://brazahomes.com/" target="_blank">
+                  View Project
+                </Link>
+              </Button>
+            </div>
+          </div>
+          <div className="flex justify-center items-start lg:w-96 mt-6">
+            <Image
+              className="rounded-2xl hover:scale-105 transition-all"
+              src="/braza.jpg"
+              width={430}
+              height={350}
+              alt="project1"
+            />
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8"
+        >
+          <div className="flex flex-col justify-start items-start lg:mr-10 ">
+            <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
+              ONC Granite
+            </h3>
+            <p className="font-inter text-sm md:text-lg mt-2 text-gray-600 lg:w-72 w-auto">
+            Website developed in Wordpress with Elementor, without a ready-made theme
+            </p>
+            <div>
+              <Button
+                className="bg-slate-950 text-white rounded-xl text-lg hover:text-slate-950 hover:bg-white p-6 mt-6"
+                asChild
+              >
+                <Link href="https://oncgranite.com/" target="_blank">
+                  View Project
+                </Link>
+              </Button>
+            </div>
+          </div>
+          <div className="flex justify-center items-start lg:w-96 mt-6">
+            <Image
+              className="rounded-2xl hover:scale-105 transition-all"
+              src="/onc.jpg"
+              width={430}
+              height={350}
+              alt="project1"
+            />
+          </div>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8"
+        >
+          <div className="flex flex-col justify-start items-start lg:mr-10 ">
+            <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
               To-do List
             </h3>
             <p className="font-inter text-sm md:text-lg mt-2 text-gray-600 lg:w-72 w-auto">
@@ -139,40 +209,7 @@ export default function Projects() {
           </div>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
-          className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8"
-        >
-          <div className="flex flex-col justify-start items-start lg:mr-10 ">
-            <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
-              ONC Granite
-            </h3>
-            <p className="font-inter text-sm md:text-lg mt-2 text-gray-600 lg:w-72 w-auto">
-            Website developed in Wordpress with Elementor, without a ready-made theme
-            </p>
-            <div>
-              <Button
-                className="bg-slate-950 text-white rounded-xl text-lg hover:text-slate-950 hover:bg-white p-6 mt-6"
-                asChild
-              >
-                <Link href="https://oncgranite.com/" target="_blank">
-                  View Project
-                </Link>
-              </Button>
-            </div>
-          </div>
-          <div className="flex justify-center items-start lg:w-96 mt-6">
-            <Image
-              className="rounded-2xl hover:scale-105 transition-all"
-              src="/onc.jpg"
-              width={430}
-              height={350}
-              alt="project1"
-            />
-          </div>
-        </motion.div>
+      
 
         <motion.div
           initial={{ opacity: 0 }}
@@ -249,40 +286,7 @@ export default function Projects() {
           </div>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
-          className="flex flex-wrap justify-center items-center  bg-gray-300 rounded-3xl lg:mt-6 w-auto h-auto lg:p-11 p-8"
-        >
-          <div className="flex flex-col justify-start items-start lg:mr-10 ">
-            <h3 className="md:text-xl text-gray-800 font-bold lg:w-48 w-auto">
-              Braza Homes
-            </h3>
-            <p className="font-inter text-sm md:text-lg mt-2 text-gray-600 lg:w-72 w-auto">
-            Website developed in Wordpress with Elementor, using the Houzez theme + MLS plugin for a real estate agency
-            </p>
-            <div>
-              <Button
-                className="bg-slate-950 text-white rounded-xl text-lg hover:text-slate-950 hover:bg-white p-6 mt-6"
-                asChild
-              >
-                <Link href="https://brazahomes.com/" target="_blank">
-                  View Project
-                </Link>
-              </Button>
-            </div>
-          </div>
-          <div className="flex justify-center items-start lg:w-96 mt-6">
-            <Image
-              className="rounded-2xl hover:scale-105 transition-all"
-              src="/braza.jpg"
-              width={430}
-              height={350}
-              alt="project1"
-            />
-          </div>
-        </motion.div>
+      
 
         <Button
           className="bg-slate-950 text-white rounded-xl text-lg hover:text-slate-950 hover:bg-white p-6 mt-6"
