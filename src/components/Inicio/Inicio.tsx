@@ -29,7 +29,7 @@ export default function Inicio() {
           <Typing />
           <p className="font-inter text-lg text-gray-600 mt-6">
             Welcome to my portfolio! Here you will discover my knowledge in
-            Front-end and UI development, as well as incredible projects and
+            Front-end Web Development, as well as incredible projects and
             relevant publications. Feel free to explore and let’s create
             solutions together that will surprise you!
           </p>
@@ -84,7 +84,7 @@ export default function Inicio() {
               asChild
             >
               <Link
-                href="https://drive.google.com/file/d/1F7ziFfOeONQ5SsXnYHqnX-2OEvgGpM0K/view?usp=sharing"
+                href="https://drive.google.com/file/d/15nj4pE35hD6rNK1GpKNkG33wEInZQRZT/view?usp=sharing"
                 target="_blank"
               >
                 Download CV
@@ -100,9 +100,9 @@ export default function Inicio() {
         >
           <Image
             className="animate-bounce-slow"
-            src="/avatar.png"
-            width={350}
-            height={350}
+            src="/avatar-new.png"
+            width={550}
+            height={550}
             alt="avatar"
           />
         </motion.div>

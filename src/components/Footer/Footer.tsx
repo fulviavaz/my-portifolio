@@ -11,7 +11,7 @@ export default function Footer() {
         transition={{ duration: 0.5 }}
         className="flex  justify-center items-start text-left lg:w-2/5 text-white"
       >
-        © 2024 - By Fúlvia Vaz
+        © 2026 - By Fúlvia Vaz
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
